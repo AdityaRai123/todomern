@@ -1,0 +1,145 @@
+/* Todo.css */
+.todo {
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  position: relative;
+  background-color: #e3f2fd;
+}
+
+.todo-inputs {
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #90caf9;
+}
+
+.todo-inputs-div {
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(25, 118, 210, 0.15);
+  background-color: #ffffff;
+}
+
+.todo-card {
+  border: 1px solid #1976d2;
+  border-radius: 8px;
+  background-color: #1976d2;
+  color: #e3f2fd;
+}
+
+.todo-card-p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.card-icons {
+  font-size: 18px;
+  border-radius: 6px;
+  color: #1976d2;
+}
+
+.del {
+  color: #d32f2f;
+}
+
+.card-icon-head {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.card-icons:hover {
+  box-shadow: 0 5px 15px rgba(25, 118, 210, 0.25);
+  color: #1565c0;
+}
+
+.home-btn {
+  background-color: #1565c0;
+  margin-top: 12px;
+  border-radius: 6px;
+  color: #e3f2fd !important;
+  border: none;
+  padding: 8px 16px;
+  font-weight: 500;
+}
+
+.delete-div {
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+.complete-div {
+  background-color: #b2dfdb;
+  color: #00695c;
+  border-radius: 6px;
+}
+
+.update-div {
+  background-color: #1976d2;
+  color: #e3f2fd;
+  border-radius: 6px;
+}
+
+.todo-update {
+  width: 100%;
+  height: 80vh;
+  position: absolute;
+  position: fixed;
+  top: 80px;
+  left: 0;
+  background-color: #bbdefb;
+  display: none;
+}
+
+.update {
+  height: 100%;
+}
+
+.sidebar {
+  background-color: #e3f2fd;
+}
+
+.todo-card-history {
+  border: 1px solid #1565c0;
+  border-radius: 8px;
+  opacity: 0.95;
+  background-color: #1565c0;
+  color: #e3f2fd;
+}
+
+.side-menu:hover {
+  background-color: #90caf9;
+}
+
+.dropdown {
+  background-color: #ffffff;
+  color: #1976d2;
+  border-radius: 6px;
+  border: 1px solid #90caf9;
+}
+
+.dropdown-options:hover {
+  background-color: #1976d2;
+  color: #e3f2fd;
+}
+
+.select::-ms-expand {
+  display: none;
+}
+
+.select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 2px 30px 2px 2px;
+}
+
+.footer-note {
+  width: 100%;
+  text-align: center;
+  padding: 16px 0 8px 0;
+  color: #1976d2;
+  font-size: 1rem;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  background: #e3f2fd;
+  margin-top: 32px;
+}

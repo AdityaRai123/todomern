@@ -1,0 +1,8 @@
+.todocard-history {
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white;
+}
+
+.side-menu:hover {
+  background-color: rgba(255, 120, 120, 0.8);
+}
